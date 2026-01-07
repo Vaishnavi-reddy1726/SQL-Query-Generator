@@ -52,14 +52,13 @@ OPENAI_API_KEY=your_openai_api_key_here
 **Step 4: Launch the Application**
 streamlit run src/app.py
 
-## How to Use the Application
+<h2>How to Use the Application</h2>
+<ul>
+  <li>Enter your <strong>OpenAI API key</strong> in the settings section, or let it load from the <code>.env</code> file.</li>
+  <li>Specify the <strong>path to your SQLite database</strong>.</li>
+  <li>Type a <strong>natural language query</strong> (e.g., “List all employees hired after 2020”).</li>
+  <li>Click <strong>Generate SQL</strong> to see the AI-generated query.</li>
+  <li><strong>Validate and execute</strong> the query to view the results.</li>
+</ul>
 
-Enter your OpenAI API key in the settings section (or allow it to load from .env).
 
-Specify the path to your SQLite database.
-
-Type a natural language query (example: “List all employees hired after 2020”).
-
-Click Generate SQL to view the AI-generated query.
-
-Validate and execute the query to see the output.
