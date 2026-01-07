@@ -7,7 +7,7 @@ The goal of this application is to make database querying easier, faster, and mo
 
 ## Application Interface
 
-![User Interface](./screenshots/User Interface.png)
+![User Interface](./screenshots/Userinterface.png)
 
 ## Features
 
